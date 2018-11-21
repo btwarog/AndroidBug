@@ -11,6 +11,8 @@ Steps to reproduction:
 6. Return to the app.
 7. Compare Lifecycle logs
 
+#### For result you should be able to see that EdiFragment in one variant kept *mainTitle* value passed with construcort in other it returned to default as data wasn't saved to bundle and restored from it
+
 Below you can find logs from my device, it was the same on Marshmallow and Oreo.
 1. Situation when method form **BaseActivity** *shouldKillBundle()* returns true
 `11-21 21:17:43.161 4719-4719/pl.btwarog.apptest D/AppTest: Fragment Lifecycle #onAttach EditFragment
