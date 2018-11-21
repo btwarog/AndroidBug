@@ -1,12 +1,12 @@
 # AndroidBug
-Proof of concept for weird behaviour of Android OS.
+### Proof of concept for weird behaviour of Android OS.
 
 
 Steps to reproduction:
 1. Turn on "Don't keep activities under System settings"
 2. Go to ProfileActivity
 3. Clear logs
-4. Go to EditProfileFragment
+4. Go to EditProfileFragment( through menu options)
 5. Minimaze app.
 6. Return to the app.
 7. Compare Lifecycle logs
